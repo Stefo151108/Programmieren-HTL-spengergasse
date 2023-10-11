@@ -1,17 +1,16 @@
-
 body {
-    background-image: url("Tokio.jpg");
-  }
-   
+  background-image: url("thumb-1920-1303830.jpg");
+}
+
 a {
   color: green;
 }
-  #Überschrift{
-    color: white;
-    text-align: center;
-  }
+#Überschrift {
+  color: white;
+  text-align: center;
+}
 
-  h2 { 
-    text-align: center;
-    color: white;
-  }
+h2 {
+  text-align: center;
+  color: white;
+}
