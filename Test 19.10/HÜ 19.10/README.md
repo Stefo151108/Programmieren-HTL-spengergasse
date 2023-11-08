@@ -1,0 +1,1 @@
+Ich habe mein bestes probiert aber es war schwär zu verstehen von einem Schüler habe rum experimentiert aber das 2 foto will einfach nicht passen. Ich hoffe sie werden meine bemühungen wertschätzen. :)

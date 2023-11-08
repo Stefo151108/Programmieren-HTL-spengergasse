@@ -1,0 +1,53 @@
+body {
+  background-color: #5286c1;
+}
+
+.navbar {
+  background-color: cornflowerblue;
+  padding: 5px 15px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.grid-container {
+  display: grid;
+  gap: 10px;
+  background-color: #5286c1;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.grid1 {
+  background-image: url(images\04.jpg);
+  display: grid;
+  grid-column: 1;
+  grid-row: 1 / span 3;
+
+  width: 171px;
+  height: 271px;
+  color: white;
+  font-size: 18px;
+  background-size: cover;
+}
+
+.grid2 {
+  background-image: url(images\06.jpg);
+  display: grid;
+  grid-column-start: 2;
+  grid-column-end: 4;
+
+  width: 171px;
+  height: 271px;
+  color: white;
+  font-size: 18px;
+  background-size: cover;
+}
