@@ -14,40 +14,41 @@ body {
 
 .grid-container {
   display: grid;
-  gap: 10px;
-  background-color: #5286c1;
-  padding: 10px;
+  margin-left: 100px;
+  margin-right: 95%;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: 150px 150px;
+  grid-template-areas:
+    "israel flieger flieger man scheich"
+    "israel kfz tisch tisch scheich ";
 }
 
-.grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px;
-  font-size: 30px;
+.israel {
+  grid-area: israel;
+}
+.flieger {
+  grid-area: flieger;
+}
+.man {
+  grid-area: man;
+}
+.scheich {
+  grid-area: scheich;
+}
+.auto {
+  grid-area: kfz;
+}
+.tisch {
+  grid-area: tisch;
 }
 
-.grid1 {
-  background-image: url(images\04.jpg);
-  display: grid;
-  grid-column: 1;
-  grid-row: 1 / span 3;
-
-  width: 171px;
-  height: 271px;
-  color: white;
-  font-size: 18px;
-  background-size: cover;
+.emblem1 {
+  margin-left: 220px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
-
-.grid2 {
-  background-image: url(images\06.jpg);
-  display: grid;
-  grid-column-start: 2;
-  grid-column-end: 4;
-
-  width: 171px;
-  height: 271px;
-  color: white;
-  font-size: 18px;
-  background-size: cover;
+.emblem2 {
+  margin-left: 220px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
