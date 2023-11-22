@@ -14,41 +14,37 @@ body {
 
 .grid-container {
   display: grid;
-  margin-left: 100px;
-  margin-right: 95%;
   grid-template-columns: auto auto auto auto auto;
-  grid-template-rows: 150px 150px;
+  grid-template-rows: 160px 155px;
   grid-template-areas:
-    "israel flieger flieger man scheich"
-    "israel kfz tisch tisch scheich ";
+    "ape fli fli gert sch"
+    "ape ver tis tis sch";
+  margin-right: 51.35%;
+  margin-left: 7%;
+  gap: 5px;
 }
 
-.israel {
-  grid-area: israel;
+.appell {
+  grid-area: ape;
 }
 .flieger {
-  grid-area: flieger;
+  grid-area: fli;
 }
-.man {
-  grid-area: man;
+.gert {
+  grid-area: gert;
 }
 .scheich {
-  grid-area: scheich;
+  grid-area: sch;
 }
-.auto {
-  grid-area: kfz;
+.verstappen {
+  grid-area: ver;
 }
 .tisch {
-  grid-area: tisch;
+  grid-area: tis;
 }
 
-.emblem1 {
-  margin-left: 220px;
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-.emblem2 {
-  margin-left: 220px;
-  margin-top: 10px;
-  margin-bottom: 20px;
+.text {
+  background-color: #5a8bc4;
+  margin-left: 100px;
+  margin-right: 833px;
 }
