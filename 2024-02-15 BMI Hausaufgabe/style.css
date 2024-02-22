@@ -13,10 +13,6 @@ body {
   min-height: 100vh;
   background: rgb(97, 138, 254, 0.9);
 }
-/* 
-  .container {
-    min-width: 250px;
-  } */
 
 .box {
   width: 500px;
